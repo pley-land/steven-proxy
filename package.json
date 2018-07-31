@@ -1,17 +1,28 @@
 {
-  "name": "",
-  "version": "",
-  "description": "",
-  "author": "",
-  "license": "",
+  "name": "steven-proxy",
+  "description": "> Project description",
+  "author": "Steven",
+  "license": "ISC",
   "engines": {
     "node": ">=6.13.0"
   },
   "scripts": {
+    "start": "nodemon ./server.js"
   },
   "dependencies": {
+    "express": "^4.16.3"
   },
   "devDependencies": {
-    "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor"
-  }
+    "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor.git"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pley-land/steven-proxy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pley-land/steven-proxy/issues"
+  },
+  "homepage": "https://github.com/pley-land/steven-proxy#readme"
 }
