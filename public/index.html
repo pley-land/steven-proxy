@@ -2,18 +2,17 @@
 <html lang='en'>
 	<head>
 		<meta charset="UTF-8">
-		<link rel="stylesheet" href="/style.css">
+		<link rel="stylesheet" href="http://localhost:3005/style.css">
 		<title>FEC Proxy Server</title>
 	</head>
 	<body>
 		<div id="top-shelf"></div>
-		<div id="photo-gallery"></div>
+		<div id="PhotoGallery"></div>
 		<div id="review-list"></div>
-    <script src="/lib/react.development.js"></script>
-    <script src="/lib/react-dom.development.js"></script>
-    <!-- <script src="http://localhost:3001/app.js"></script> -->
-    <!-- <script src="http://localhost:3002/app.js"></script> -->
-    <script src="http://localhost:3005/app.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react-dom.js"></script>
+    <script type="text/javascript" src="http://localhost:3005/app.js"></script>
     <script>
       // ReactDOM.render(
         // React.createElement(Info),
@@ -21,7 +20,7 @@
       // );
       ReactDOM.render(
         React.createElement(PhotoGallery),
-        document.getElementById('photo-gallery')
+        document.getElementById('PhotoGallery')
       );
       // ReactDOM.render(
         // React.createElement(Reviews),
