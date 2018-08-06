@@ -1,28 +1,25 @@
 {
-  "name": "steven-proxy",
-  "description": "> Project description",
-  "author": "Steven",
-  "license": "ISC",
-  "engines": {
-    "node": ">=6.13.0"
-  },
+  "name": "proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "nodemon ./server.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/index.js"
   },
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "express": "^4.16.3"
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "grunt": "^1.0.3",
+    "path": "^0.12.7"
   },
   "devDependencies": {
-    "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor.git"
-  },
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/pley-land/steven-proxy.git"
-  },
-  "bugs": {
-    "url": "https://github.com/pley-land/steven-proxy/issues"
-  },
-  "homepage": "https://github.com/pley-land/steven-proxy#readme"
+    "grunt-aws-s3": "^2.0.0",
+    "grunt-contrib-cssmin": "^2.2.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-nodeunit": "^2.0.0",
+    "grunt-contrib-uglify": "^3.4.0"
+  }
 }
